@@ -10,9 +10,9 @@ resources:
 
 variables:
   # Container registry service connection established during pipeline creation
-  dockerRegistryServiceConnection: '999c4712-25f9-4343-9fd2-2d6044052fea'
-  imageRepository: 'asadullahehsancodealphaazurepipeline'
-  containerRegistry: 'webapi20250317181221.azurecr.io'
+  dockerRegistryServiceConnection: '7f63a0cc-f3ba-4948-962a-9982500cb89d'
+  imageRepository: 'webapi'
+  containerRegistry: 'webapi20250320170307.azurecr.io'
   dockerfilePath: '$(Build.SourcesDirectory)/WebAPI/WebAPI/Dockerfile'
   tag: '$(Build.BuildId)'
 
